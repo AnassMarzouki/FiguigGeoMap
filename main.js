@@ -1,14 +1,19 @@
 import './style.css';
-import { Map, View } from 'ol';
-import TileLayer from 'ol/layer/Tile';
-import TileWMS from 'ol/source/TileWMS';
-import OSM from 'ol/source/OSM';
+// import { Map, View } from 'ol';
+// import TileLayer from 'ol/layer/Tile';
+// import TileWMS from 'ol/source/TileWMS';
+// import OSM from 'ol/source/OSM';
 import { useGeographic } from 'ol/proj';
 import { fromLonLat } from 'ol/proj';
 import LayerSwitcher from 'ol-ext/control/LayerSwitcher';
 import ScaleLine from 'ol/control/ScaleLine'
 import Overlay from 'ol/Overlay';
 import data from './lithology.json'
+
+import Map from "./node_modules/ol/Map.js";
+import View from "./node_modules/ol/View.js";
+import TileLayer from "./node_modules/ol/layer/Tile.js";
+import OSM from "./node_modules/ol/source/OSM.js";
 
 
 import 'ol-ext/dist/ol-ext.css';
