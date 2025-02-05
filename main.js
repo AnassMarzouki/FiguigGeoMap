@@ -6,8 +6,6 @@ import OSM from 'ol/source/OSM';
 import { useGeographic } from 'ol/proj';
 import { fromLonLat } from 'ol/proj';
 import LayerSwitcher from 'ol-ext/control/LayerSwitcher';
-import Overview from 'ol-ext/control/Overview'
-import SearchFeature from 'ol-ext/control/SearchFeature'
 import ScaleLine from 'ol/control/ScaleLine'
 import Overlay from 'ol/Overlay';
 import data from './lithology.json'
